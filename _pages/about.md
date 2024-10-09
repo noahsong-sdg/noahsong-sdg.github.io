@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 Welcome! I'm Noah, an undergraduate student at CU Boulder studying physics and mathematics. Currently investigating quantum chemistry under the direction of Dr. Markus Pflaum. See all the technical things I'm up to in the links above!
 
-I am foremost a devout Christian theist, which motivates much of my theological and philosophical selections in terms of literature, which you can see here.
+I am foremost a devout Christian theist, which motivates much of my read literature, which you can see here.
 
 Otherwise, I participate in various activities with the cello studio, thanks to the generosity of Professor Requiro and TA's Peyton and Julian.
 
