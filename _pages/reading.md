@@ -7,7 +7,6 @@ nav: false
 nav_order: 7
 ---
 
-# Things I read
 Blogs I keep up with are *Slow Boring* by Matthew Yglesias, the Aporia newsletter, Paul Graham's essays, and Dave Green's *Letters from Fiddler's Green*. 
 
 "N" means notable and "M" denotes must-read. 

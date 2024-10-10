@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Proud recipient of the "Curious George" Award from summer science camp in 4th grade
+subtitle: Holder of the "Curious George" Award from 4th grade Science Camp
 
 profile:
   align: right
@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 Welcome! I'm Noah, an undergraduate student at CU Boulder studying mathematics, while tinkering in physics and programming.  See my past and current [coursework](/noahjsong/coursework/) and [projects](/noahjsong/projects/)!
 
-Otherwise, I play cello, lift, and read. I am foremost a devout Christian theist, which motivates much of my read literature of which you can investigate [here](/noahjsong/other/)
+Otherwise, I play cello, lift, and read. I am foremost a devout Christian theist, which motivates much of my read literature of which you can investigate [here](/noahjsong/reading/)
 
 
 
