@@ -13,6 +13,7 @@ nav_order: 6
 - PHYS3310 Principles of Electricity and Magnetism I (Holland)
 - PHYS3320 Quantum Mechanics I (Sun)
 - PHIL2270 Philosophy and Race
+
 # Spring 2024
 - MATH3001 Analysis I (O'Rourke)
 - MATH3140 Abstract Algebra I (Mayr)
@@ -22,6 +23,7 @@ nav_order: 6
 - Cello Studio 
 - Campus Orchestra
 - Chamber Music (Rossini Cello - Bass Duet)
+
 # Fall 2023
 - MATH2135 Linear Algebra for Math Majors (Green)
 - PHYS2210 Classical Mechanics I (Dubson)
