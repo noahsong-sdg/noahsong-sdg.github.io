@@ -4,7 +4,7 @@ permalink: /work/
 title: work
 description: 
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 - Fall 2024
     - Grader; MATH2002 (Number Systems) & MATH3001 (Analysis 1)

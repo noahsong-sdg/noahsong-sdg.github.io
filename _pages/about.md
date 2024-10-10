@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Proud recipient of the "Curious George" Award from summer science camp in 4th grade
 
 profile:
   align: right
@@ -18,11 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Welcome! I'm Noah, an undergraduate student at CU Boulder studying physics and mathematics. Currently investigating quantum chemistry under the direction of Dr. Markus Pflaum. See all the technical things I'm up to in the links above!
+Welcome! I'm Noah, an undergraduate student at CU Boulder studying mathematics, while tinkering in physics and programming.  See my past and current [coursework](/noahjsong/coursework/) and [projects](/noahjsong/projects/)!
 
-I am foremost a devout Christian theist, which motivates much of my read literature, which you can see here.
-
-Otherwise, I participate in various activities with the cello studio, thanks to the generosity of Professor Requiro and TA's Peyton and Julian.
+Otherwise, I play cello, lift, and read. I am foremost a devout Christian theist, which motivates much of my read literature of which you can investigate [here](/noahjsong/other/)
 
 
 
