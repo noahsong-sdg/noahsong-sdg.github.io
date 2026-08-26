@@ -2,17 +2,28 @@
 title: Reading
 ---
 
-# 2025
+# 2026
 
-Books I liked and recommend:
-- The Brothers Karamazov
+- The Strength of the Few, James Islington
+- The Will of the Many, James Islington
+- When the Wolves Bite, Scott Wapner
+- The Autobiography of Andrew Carnegie
+- Shoe Dog, Phil Knight
+- Napoleon, Andrew Roberts
+- The Best of All Possible Worlds, Michael Kempe
+- Discourses on Livy, Niccolò Machiavelli
+- The Rise and Fall of Athens (Plutarch's Lives), Plutarch
+- The Brothers Karamazov, Fyodor Dostoevsky
+
+# 2025
+really good reads:
 - Perelandra, CS Lewis
 - Skunk Works, Ben Rich
-- Dealers of Lightning (on Xerox PARC, so legendary)
+- Dealers of Lightning 
 - Diamond Age, Neal Stephenson
 - The Expanse 
 
-Liked but don't necessarily recommend:
+ok reads:
 - Atlas Shrugged
 - Dune 2-4
 - Neuromancer
@@ -22,7 +33,6 @@ Liked but don't necessarily recommend:
 - Soul in a New Machine 
 
 And others I didn't really enjoy. Next year I want to read more non-fiction
-
 
 **Other stuff**
 [Principles of Effective Research - Michael Nielsen](https://michaelnielsen.org/blog/principles-of-effective-research/)

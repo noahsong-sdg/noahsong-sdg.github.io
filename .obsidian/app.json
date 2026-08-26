@@ -1,0 +1,7 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "src/files",
+  "newFileFolderPath": "src/pages",
+  "newFileLocation": "folder",
+  "useMarkdownLinks": true
+}

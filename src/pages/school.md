@@ -14,16 +14,16 @@ title: School
 - MATH2002: Number Systems (Spring 2024)
 
 # courses
-- ### Fall 2025 (added physics major laughing crying emoji)
+- ### Fall 2025
 	- Topics in topology (infinity categories)
 	- Quantum physics II
 	- Thermo & statmech
-- ### Spring 2025 (dropped physics major)
+- ### Spring 2025 
 	- MATH6140: Algebra II (modules, field theory, Galois theory)
 	- MATH6220: Topology II (algebraic topology)
 	- CHEM5555: Computational & Theoretical Chemistry
 	- MATH4900: Independent Study (QCHEM)
-- ### Fall 2024 (dropped music major)
+- ### Fall 2024 
 	- MATH6130: Algebra I (group theory, mostly)
 	- MATH6210: Topology I (the usual intro top class)
 	- PHYS: Quantum Mechanics I

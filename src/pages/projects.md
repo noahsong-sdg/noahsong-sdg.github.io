@@ -3,8 +3,6 @@ title: Projects
 ---
 ### current
 
-Archal labs!
-
 
 ### in my past
 Most of these you can find on github
