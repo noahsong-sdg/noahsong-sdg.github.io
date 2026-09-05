@@ -132,30 +132,9 @@ blockquote {
   letter-spacing: -0.04em;
 }
 
-.post-kicker,
-.post-meta,
-.post-header time {
+.post-meta {
   color: #666;
   font-size: 0.9rem;
-}
-
-.post-kicker {
-  margin-bottom: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.post-deck {
-  max-width: 55ch;
-  margin-top: 1.25rem;
-  font-size: 1.15rem;
-  color: #555;
-}
-
-.post-header time {
-  display: block;
-  margin-top: 0.75rem;
 }
 
 .prose {
