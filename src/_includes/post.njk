@@ -1,0 +1,15 @@
+---
+layout: base.njk
+---
+
+<header class="post-header">
+  <p class="post-kicker">Writing</p>
+  <h1>{{ title }}</h1>
+  <p class="post-deck">{{ description }}</p>
+  <time datetime="{{ publishedDate }}">{{ displayDate }}</time>
+</header>
+<main>
+  <article class="prose">
+    {{ content | safe }}
+  </article>
+</main>
