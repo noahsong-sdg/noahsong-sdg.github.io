@@ -7,6 +7,8 @@ layout: page.njk
 
 Hi, I'm Noah!
 
+[LinkedIn](https://www.linkedin.com/in/noah-j-song) · [X](https://x.com/theophorus7)
+
 I'm 21 and studied math and physics at CU Boulder in Colorado ('23-'26).
 
 While there, I:
