@@ -1,6 +1,7 @@
 ---
 title: things i learned from the yc batch
 description: some things i learned from doing half of the S26 batch.
+date: "2026-09-08"
 publishedDate: "2026-09-08"
 displayDate: September 8, 2026
 permalink: /writing/things-i-learned-from-the-yc-batch/

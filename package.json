@@ -4,8 +4,9 @@
   "description": "Extremely minimal Eleventy starter to kickstart a simple multi-page site / a nearly opinionless foundation to continue building on",
   "main": "index.html",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "node tools/eleventy.js --serve",
+    "build": "node tools/eleventy.js",
+    "test": "npm run build && node --test test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,9 @@
   },
   "dependencies": {
     "@11ty/eleventy": "3.1.6"
+  },
+  "overrides": {
+    "chokidar": "4.0.3",
+    "argparse": "2.0.1"
   }
 }

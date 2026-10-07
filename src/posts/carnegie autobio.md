@@ -1,6 +1,7 @@
 ---
 title: Carnegie's Autobio
 description: Andrew Carnegie on dignity, generosity, ambition, luck, and the habits behind a life of industry.
+date: "2026-09-05"
 publishedDate: "2026-09-05"
 displayDate: September 5, 2026
 permalink: /writing/carnegie-autobiography/

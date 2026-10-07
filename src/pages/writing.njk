@@ -4,11 +4,10 @@ description: Notes on books, technology, theology, and whatever else has my atte
 ---
 
 <div class="post-list">
-  {% for post in collections.posts | reverse %}
+  {% for post in collections.publishedPosts %}
     <section class="post-list-item">
       <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
       <p class="post-meta">{{ post.data.displayDate }}</p>
-      <p>{{ post.data.description }}</p>
     </section>
   {% endfor %}
 </div>
