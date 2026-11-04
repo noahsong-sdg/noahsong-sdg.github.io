@@ -1,8 +1,8 @@
 ---
 title: the ultimate and most powerful weapon of all
 description: On necessity, existential missions, and the motivating power of reducing optionality.
-date: "2026-10-07"
-publishedDate: "2026-10-07"
+date: 2026-10-07
+publishedDate: 2026-10-07
 displayDate: October 7, 2026
 permalink: /writing/the-ultimate-and-most-powerful-weapon-of-all/
 ---
@@ -14,3 +14,5 @@ permalink: /writing/the-ultimate-and-most-powerful-weapon-of-all/
 So: one who leads should impress a necessity to perform the task at hand upon their subordinates. This is probably why companies with existential missions find it easier to recruit talent: because people who feel that same existential pressure as a company are self-motivated to perform their tasks with the aforementioned powerful weapon.
 
 One other takeaway is that you can make yourself push harder if you radically reduce optionality. Just choose a direction to go in and go all in; don't think about other fields or things and treat your selected path as the only path.
+
+The day on which I read this chapter, I had the option to receive $125k in return for some equity in a company i start down the line. I decided to turn it down because the action space is too large! It seems that for me, I would rather work somewhere I think is cool, radically apply constraints, and generate artificial necessity of action.
