@@ -1,5 +1,6 @@
 ---
 title: School
+nav: false
 ---
 
 

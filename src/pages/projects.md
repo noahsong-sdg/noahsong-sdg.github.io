@@ -6,6 +6,8 @@ title: Projects
 
 ### in my past
 
+**[School](/school/)**
+
 **[a short intro on infcat and tqft's](/files/tqfts_noahsong.pdf)**
 
 **Computational Chemistry with the Eaves Group:** make GFN1-xTB not cruddy on bandgaps and structural constants for quantum dots
