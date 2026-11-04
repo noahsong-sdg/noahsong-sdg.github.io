@@ -1,4 +1,4 @@
-const { isReady, publishedTime } = require("./lib/posts");
+const { isPost, isReady, publicEssay, publishedTime } = require("./lib/posts");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("publishedPosts", collection => {
@@ -22,6 +22,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addPreprocessor("public essay boundary", "md", (data, content) => {
+    if (isPost(data)) return publicEssay(content);
+  });
 
   return {
     dir: {

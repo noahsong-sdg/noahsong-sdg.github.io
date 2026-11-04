@@ -4,7 +4,7 @@ const os = require("node:os");
 const path = require("node:path");
 const { execFileSync } = require("node:child_process");
 const test = require("node:test");
-const { publishedTime, slug } = require("../lib/posts");
+const { publicEssay, publishedTime, slug } = require("../lib/posts");
 
 const root = path.resolve(__dirname, "..");
 function files(dir) {
@@ -35,7 +35,9 @@ test("native template creates a safe draft, then fills metadata and sorts by pub
   const template = fs.readFileSync(path.join(root, "tools/Blog post.md"), "utf8");
   assert.ok(template.includes('{{date:YYYY-MM-DD}}'));
   const post = path.join(fixture, "src/posts/A newer.md");
-  const draft = template.replace('{{date:YYYY-MM-DD}}', '2026-10-07') + '## Keep this body heading\n\nNewer body.';
+  const draft = template.replace('{{date:YYYY-MM-DD}}', '2026-10-07')
+    .replace('Write the essay here.', '## Keep this body heading\n\nNewer body.\n\n[public link][private-reference]')
+    .replace('Everything here and below stays out of the website.', 'PRIVATE_POST_NOTE\n\n[private-reference]: https://private.example/');
   fs.writeFileSync(post, draft);
   fs.writeFileSync(path.join(fixture, "src/posts/Empty.md"), '');
   fs.writeFileSync(path.join(fixture, "src/posts/Invalid date.md"), '---\npublishedDate: "2026-02-31"\n---\nInvalid.');
@@ -52,6 +54,8 @@ test("native template creates a safe draft, then fills metadata and sorts by pub
   const html = fs.readFileSync(path.join(fixture, "public/writing/a-newer/index.html"), "utf8");
   assert.ok(html.includes('<h1>A newer</h1>'));
   assert.ok(html.includes('Keep this body heading'));
+  assert.ok(!html.includes('PRIVATE_POST_NOTE'));
+  assert.ok(!html.includes('private.example'));
   const index = fs.readFileSync(path.join(fixture, "public/writing/index.html"), "utf8");
   assert.ok(index.indexOf('A newer') < index.indexOf('Z older'));
   assert.ok(index.includes('October 7, 2026'));
@@ -67,4 +71,12 @@ test("date validation and URL slugs are stable", () => {
   assert.ok(Number.isNaN(publishedTime('2026-02-31')));
   assert.ok(Number.isNaN(publishedTime(undefined)));
   assert.equal(slug('Café, notes & ideas!'), 'cafe-notes-ideas');
+});
+
+test("public essay markers preserve legacy posts and reject malformed boundaries", () => {
+  assert.equal(publicEssay("Legacy post"), "Legacy post");
+  assert.equal(publicEssay("private\n<!-- PUBLIC ESSAY START -->\nPublic post\n<!-- PUBLIC ESSAY END -->\nprivate"), "Public post");
+  assert.ok(!publicEssay("```\n<!-- PUBLIC ESSAY START -->\n```\nPublic post\n```\n<!-- PUBLIC ESSAY END -->\n```\nPRIVATE_TAIL").includes("PRIVATE_TAIL"));
+  assert.throws(() => publicEssay("<!-- PUBLIC ESSAY START -->\nMissing end"), /START\/END order/);
+  assert.throws(() => publicEssay("<!-- PUBLIC ESSAY END -->\n<!-- PUBLIC ESSAY START -->"), /START\/END order/);
 });

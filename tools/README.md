@@ -2,6 +2,8 @@
 
 Create a Markdown file in `src/posts`. Its filename becomes the title unless you add a `title` field. Start from `tools/Blog post.md`; Obsidian's Templates command fills its date placeholder when this folder is selected as the template folder. When copying manually, replace the placeholder with a quoted date such as `"2026-10-07"`.
 
+Write public text between `<!-- PUBLIC ESSAY START -->` and `<!-- PUBLIC ESSAY END -->`. Anything before or after those markers is omitted from the generated article. Both markers are required when either is present; a malformed pair stops the build instead of risking publication. Older posts without markers continue to publish in full. The GitHub repository is public, so do not commit genuinely private notes inside `src/posts`; keep those in the parent Obsidian vault outside this repository.
+
 Keep `draft: true` while writing. Set `draft: false` to publish. A valid `publishedDate` in `YYYY-MM-DD` format is required. Future dates publish immediately; they do not schedule publication. Posts appear newest first by this date. The display date and URL are generated automatically. Once a post is published, preserve its filename/title or set an explicit `permalink` to preserve its URL.
 
 Run `npm start` to preview, `npm test` to build and verify, and `npm run build` for production output. Only `src` becomes site content. The build clears disposable `public` output so posts switched back to drafts disappear.
