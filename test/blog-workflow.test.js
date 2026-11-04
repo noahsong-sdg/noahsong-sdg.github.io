@@ -23,6 +23,7 @@ test("every rendered page omits description decks and empty drafts", () => {
     assert.ok(!html.includes("Ammunition and Leverage"), "empty draft must not be listed");
   }
   assert.ok(!fs.existsSync(path.join(root, "public/posts/Ammunition and Leverage/index.html")));
+  assert.ok(fs.existsSync(path.join(root, "public/writing/the-ultimate-and-most-powerful-weapon-of-all/index.html")));
 });
 
 test("native template creates a safe draft, then fills metadata and sorts by publishedDate", t => {

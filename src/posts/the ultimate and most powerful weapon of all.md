@@ -1,8 +1,8 @@
 ---
 title: the ultimate and most powerful weapon of all
 description: On necessity, existential missions, and the motivating power of reducing optionality.
-date: 2026-10-07
-publishedDate: 2026-10-07
+date: "2026-10-07"
+publishedDate: "2026-10-07"
 displayDate: October 7, 2026
 permalink: /writing/the-ultimate-and-most-powerful-weapon-of-all/
 ---
