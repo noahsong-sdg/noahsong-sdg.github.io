@@ -4,7 +4,13 @@ title: Reading
 
 # 2026
 
+- Mere Christendom - Douglas Wilson
+- Eschatology and the Technological Future - Michael S. Burdett
+- Consider Phlebas - Iain M. Banks
+- The Fall of Hyperion - Dan Simmons
+- Hannibal - Patrick Hunt
 - There is no anti-mimetics division - qntm
+- Discourses on Livy - Niccolò Machiavelli
 - Twelve Months - Jim Butcher
 - Turn the Ship Around! - L. David Marquet
 - The Man Who Was Thursday - G. K. Chesterton
