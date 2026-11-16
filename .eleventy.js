@@ -1,6 +1,7 @@
 const { isPost, isReady, publicEssay, publishedTime } = require("./lib/posts");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setLibrary("md", require("./lib/markdown").markdown());
   eleventyConfig.addCollection("publishedPosts", collection => {
     const posts = collection.getFilteredByTag("posts").filter(post => isReady(post.data));
     const urls = new Set();
@@ -14,6 +15,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/css/");
   eleventyConfig.addPassthroughCopy("./src/files/");
   eleventyConfig.addPassthroughCopy("./src/js/");
+  eleventyConfig.addPassthroughCopy({ "node_modules/katex/dist/katex.min.css": "css/katex.min.css" });
+  eleventyConfig.addPassthroughCopy({ "node_modules/katex/dist/fonts": "css/fonts" });
   eleventyConfig.addWatchTarget("./src/css/");
 
   eleventyConfig.addGlobalData("posthog", {

@@ -91,17 +91,41 @@ a:focus {
 article img {
   display: block;
   width: 100%;
-  min-height: 20rem;
-  max-height: 40vh;
-  object-fit: cover;
+  height: auto;
   margin: 2rem auto;
 }
 
-@supports (aspect-ratio: 1) {
-  article img {
-    max-height: unset;
-    aspect-ratio: 3/2;
-  }
+.table-scroll, .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table-scroll table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-scroll th, .table-scroll td {
+  min-width: 12rem;
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+
+.callout {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+}
+
+.callout summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.katex * + * {
+  margin-top: 0;
 }
 
 /* Supporting Content */

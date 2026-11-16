@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="642pt" viewBox="0 0 460.8 642" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-09T21:47:53.386844</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 642 
+L 460.8 642 
+L 460.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 42.912 109.908144 
+L 417.888 109.908144 
+Q 422.352 109.908144 422.352 103.366224 
+L 422.352 54.301824 
+Q 422.352 47.759904 417.888 47.759904 
+L 42.912 47.759904 
+Q 38.448 47.759904 38.448 54.301824 
+L 38.448 103.366224 
+Q 38.448 109.908144 42.912 109.908144 
+z
+" clip-path="url(#p411ffbdc8b)" style="fill: #eaf2f3; stroke: #65787e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 42.912 183.83184 
+L 417.888 183.83184 
+Q 422.352 183.83184 422.352 177.28992 
+L 422.352 128.22552 
+Q 422.352 121.6836 417.888 121.6836 
+L 42.912 121.6836 
+Q 38.448 121.6836 38.448 128.22552 
+L 38.448 177.28992 
+Q 38.448 183.83184 42.912 183.83184 
+z
+" clip-path="url(#p411ffbdc8b)" style="fill: #eaf2f3; stroke: #65787e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 42.912 257.755536 
+L 417.888 257.755536 
+Q 422.352 257.755536 422.352 251.213616 
+L 422.352 202.149216 
+Q 422.352 195.607296 417.888 195.607296 
+L 42.912 195.607296 
+Q 38.448 195.607296 38.448 202.149216 
+L 38.448 251.213616 
+Q 38.448 257.755536 42.912 257.755536 
+z
+" clip-path="url(#p411ffbdc8b)" style="fill: #eaf2f3; stroke: #65787e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 42.912 331.679232 
+L 417.888 331.679232 
+Q 422.352 331.679232 422.352 325.137312 
+L 422.352 276.072912 
+Q 422.352 269.530992 417.888 269.530992 
+L 42.912 269.530992 
+Q 38.448 269.530992 38.448 276.072912 
+L 38.448 325.137312 
+Q 38.448 331.679232 42.912 331.679232 
+z
+" clip-path="url(#p411ffbdc8b)" style="fill: #eaf2f3; stroke: #65787e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 42.912 405.602928 
+L 417.888 405.602928 
+Q 422.352 405.602928 422.352 399.061008 
+L 422.352 349.996608 
+Q 422.352 343.454688 417.888 343.454688 
+L 42.912 343.454688 
+Q 38.448 343.454688 38.448 349.996608 
+L 38.448 399.061008 
+Q 38.448 405.602928 42.912 405.602928 
+z
+" clip-path="url(#p411ffbdc8b)" style="fill: #eaf2f3; stroke: #65787e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 42.912 479.526624 
+L 417.888 479.526624 
+Q 422.352 479.526624 422.352 472.984704 
+L 422.352 423.920304 
+Q 422.352 417.378384 417.888 417.378384 
+L 42.912 417.378384 
+Q 38.448 417.378384 38.448 423.920304 
+L 38.448 472.984704 
+Q 38.448 479.526624 42.912 479.526624 
+z
+" clip-path="url(#p411ffbdc8b)" style="fill: #f4eee6; stroke: #65787e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 42.912 553.45032 
+L 417.888 553.45032 
+Q 422.352 553.45032 422.352 546.9084 
+L 422.352 497.844 
+Q 422.352 491.30208 417.888 491.30208 
+L 42.912 491.30208 
+Q 38.448 491.30208 38.448 497.844 
+L 38.448 546.9084 
+Q 38.448 553.45032 42.912 553.45032 
+z
+" clip-path="url(#p411ffbdc8b)" style="fill: #f4eee6; stroke: #65787e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 42.912 627.374016 
+L 417.888 627.374016 
+Q 422.352 627.374016 422.352 620.832096 
+L 422.352 571.767696 
+Q 422.352 565.225776 417.888 565.225776 
+L 42.912 565.225776 
+Q 38.448 565.225776 38.448 571.767696 
+L 38.448 620.832096 
+Q 38.448 627.374016 42.912 627.374016 
+z
+" clip-path="url(#p411ffbdc8b)" style="fill: #f4eee6; stroke: #65787e; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="31.449911" transform="rotate(-0 230.4 31.449911)">From a metal strip to a working magnet</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="74.948082" transform="rotate(-0 230.4 74.948082)">Customer specification</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="92.356141" transform="rotate(-0 230.4 92.356141)">Field, temperature, current, geometry and duty cycle</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 230.4 112.564362 
+Q 230.4 118.084979 230.4 121.928546 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 232.8 117.128546 
+L 230.4 121.928546 
+L 228 117.128546 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="148.871778" transform="rotate(-0 230.4 148.871778)">Prepare the metal substrate</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="166.279837" transform="rotate(-0 230.4 166.279837)">Mechanical support; clean and smooth the strip</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 230.4 186.488058 
+Q 230.4 192.008675 230.4 195.852242 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 232.8 191.052242 
+L 230.4 195.852242 
+L 228 191.052242 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="222.795474" transform="rotate(-0 230.4 222.795474)">Make an aligned template</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="240.203533" transform="rotate(-0 230.4 240.203533)">Buffer layers guide crystal orientation</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 230.4 260.411754 
+Q 230.4 265.932371 230.4 269.775938 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 232.8 264.975938 
+L 230.4 269.775938 
+L 228 264.975938 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="296.71917" transform="rotate(-0 230.4 296.71917)">Grow and oxygenate REBCO</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="314.127229" transform="rotate(-0 230.4 314.127229)">Film growth determines texture and pinning</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 230.4 334.33545 
+Q 230.4 339.856067 230.4 343.699634 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 232.8 338.899634 
+L 230.4 343.699634 
+L 228 338.899634 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="370.642866" transform="rotate(-0 230.4 370.642866)">Finish and qualify the tape</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="388.050925" transform="rotate(-0 230.4 388.050925)">Silver / copper, slitting, current and mechanical checks</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 230.4 408.259146 
+Q 230.4 413.779763 230.4 417.62333 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 232.8 412.82333 
+L 230.4 417.62333 
+L 228 412.82333 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="444.566562" transform="rotate(-0 230.4 444.566562)">Build the cable or winding</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="461.974621" transform="rotate(-0 230.4 461.974621)">Choose architecture; preserve the film during handling</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 230.4 482.182842 
+Q 230.4 487.703459 230.4 491.547026 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 232.8 486.747026 
+L 230.4 491.547026 
+L 228 486.747026 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="518.490258" transform="rotate(-0 230.4 518.490258)">Integrate the magnet</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="535.898317" transform="rotate(-0 230.4 535.898317)">Joints, support, cryostat, leads and protection</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 230.4 556.106538 
+Q 230.4 561.627155 230.4 565.470722 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 232.8 560.670722 
+L 230.4 565.470722 
+L 228 560.670722 
+" style="fill: none; stroke: #526c75; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="592.413954" transform="rotate(-0 230.4 592.413954)">Test against the specification</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="230.4" y="609.822013" transform="rotate(-0 230.4 609.822013)">Field, temperature, loading, ramping and fault response</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p411ffbdc8b">
+   <rect x="7.2" y="7.2" width="446.4" height="654.192"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -28,6 +28,7 @@ test("every rendered page omits description decks and empty drafts", () => {
 
 test("native template creates a safe draft, then fills metadata and sorts by publishedDate", t => {
   const fixture = fs.mkdtempSync(path.join(os.tmpdir(), "noah-blog-test-"));
+  fs.symlinkSync(path.join(root, "node_modules"), path.join(fixture, "node_modules"), "dir");
   t.after(() => fs.rmSync(fixture, { recursive: true, force: true }));
   for (const name of [".eleventy.js", "lib", "src/_includes", "src/_data", "src/pages", "src/posts/posts.json"])
     fs.cpSync(path.join(root, name), path.join(fixture, name), { recursive: true });

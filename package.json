@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node tools/eleventy.js --serve",
     "build": "node tools/eleventy.js",
-    "test": "npm run build && node --test test/*.test.js"
+    "test": "npm run build && node --test test/*.test.js",
+    "import-post": "node tools/import-post.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,11 @@
     "url": "https://github.com/5t3ph/smol-11ty-starter/issues"
   },
   "dependencies": {
-    "@11ty/eleventy": "3.1.6"
+    "@11ty/eleventy": "3.1.6",
+    "katex": "0.19.1",
+    "markdown-it": "14.3.3",
+    "markdown-it-footnote": "4.0.0",
+    "markdown-it-texmath": "1.0.0"
   },
   "overrides": {
     "chokidar": "4.0.3",
