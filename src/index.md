@@ -8,7 +8,7 @@ Hi, I'm Noah!
 I'm 21 and studied math and physics at CU Boulder in Colorado ('23-'26).
 
 While there, I:
-- dabbled in solid state quantum chemistry, drug discovery, and topological QFTs.
+- dabbled in [solid state quantum chemistry](https://github.com/noahsong-sdg/hubbard), [drug discovery](https://github.com/noahsong-sdg/trem2_unidock), and [topological QFTs](/files/tqfts_noahsong.pdf).
 - worked at a deep-tech startup using superconducting optoelectronics as neuromorphic computers.
 
 Then, I
