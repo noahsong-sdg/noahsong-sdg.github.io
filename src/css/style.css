@@ -7,11 +7,12 @@
 :root {
   color-scheme: dark;
   --background: #000;
-  --surface: #090909;
-  --text: #f2eee5;
-  --muted: #aaa49a;
-  --gold: #d4af37;
-  --border: #2d2d2d;
+  --surface: #03070c;
+  --text: #dcecff;
+  --muted: #8292a6;
+  --gold: #f0c75e;
+  --ion: #6ee7ff;
+  --border: #162536;
 }
 
 /* Layout */
@@ -42,6 +43,12 @@ nav ul {
   padding: 0;
   margin-left: -1rem;
   margin-right: -1rem;
+}
+
+nav {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 nav ul li {
@@ -90,6 +97,15 @@ article * + * {
 a {
   color: var(--gold);
   text-underline-offset: 0.08em;
+}
+
+a:hover {
+  color: var(--ion);
+}
+
+::selection {
+  color: var(--background);
+  background: var(--ion);
 }
 
 a:focus {
@@ -153,7 +169,7 @@ code:not([class*="language"]) {
 blockquote {
   margin: 2rem 0;
   padding: 0.5em 1rem;
-  border-left: 3px solid rgba(212, 175, 55, 0.6);
+  border-left: 3px solid var(--ion);
   background-color: var(--surface);
   border-radius: 0 0.25rem 0.25rem 0;
 }
@@ -209,7 +225,7 @@ blockquote {
 .project-card {
   padding: 1rem 1.1rem;
   border: 1px solid var(--border);
-  border-left: 3px solid var(--gold);
+  border-left: 3px solid var(--ion);
   border-radius: 0.25rem;
   background: var(--surface);
 }
