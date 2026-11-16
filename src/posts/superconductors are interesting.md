@@ -1,5 +1,7 @@
 ---
 publishedDate: "2026-11-16"
+title: "some interesting things about superconductors & the research to industry pipeline"
+permalink: "/writing/superconductors-are-interesting/"
 draft: false
 ---
 
