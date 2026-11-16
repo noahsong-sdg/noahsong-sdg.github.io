@@ -40,6 +40,7 @@ nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
   margin-left: -1rem;
   margin-right: -1rem;
@@ -233,6 +234,11 @@ blockquote {
 .project-card h3 {
   margin-top: 0;
   font-size: 1.1rem;
+}
+
+.project-year {
+  color: var(--muted);
+  font-weight: 400;
 }
 
 .project-card > * + * {
