@@ -1,5 +1,7 @@
 ---
-title: Reading
+title: books
+nav: false
+permalink: /lists/books/index.html
 ---
 
 # 2026
@@ -64,13 +66,3 @@ title: Reading
 - lightbringer book 2, brent weeks
 - pyscho cybernetics
 - powder mage book 1
-
-**Other stuff**
-[Principles of Effective Research - Michael Nielsen](https://michaelnielsen.org/blog/principles-of-effective-research/)
-
-Paul Graham 
-- How to do Great Work
-- Superlinear Returns
-- Relentlessly Resourceful
-
-Escaping Flatland (Henrik Karlsson)

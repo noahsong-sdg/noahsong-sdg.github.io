@@ -3,19 +3,17 @@
 <nav>
   <ul role="list">
     <li>
-      <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="{{ '/' | url }}">Home</a>
+      <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="{{ '/' | url }}">noah</a>
     </li>
 
-    {% for page in collections.pages %}
-    {% if page.data.nav !== false %}
     <li>
-      <a 
-        {% if currentUrl === page.url %}aria-current="page"{% endif %} 
-        href="{{ page.url | url }}">
-          {{ page.data.title }}
-      </a>
+      <a {% if currentUrl === '/projects/' %}aria-current="page"{% endif %} href="{{ '/projects/' | url }}">projects</a>
     </li>
-    {% endif %}
-    {%- endfor %}
+    <li>
+      <a {% if currentUrl.startsWith('/lists/') %}aria-current="page"{% endif %} href="{{ '/lists/' | url }}">lists</a>
+    </li>
+    <li>
+      <a {% if currentUrl.startsWith('/writing/') %}aria-current="page"{% endif %} href="{{ '/writing/' | url }}">writing</a>
+    </li>
   </ul>
 </nav>
